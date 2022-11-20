@@ -2,6 +2,7 @@ a=[[3, 2, 5],[6, 7, 8],[1, 4, 9]]
 b=[]
 for i in range(3):
     print(a[i])
+print("After rotation at 90' clockwise it is:-)
 for i in range(3):
     b.append([])
     for j in range(3):
