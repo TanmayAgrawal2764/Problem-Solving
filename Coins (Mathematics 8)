@@ -1,0 +1,19 @@
+n=int(input())
+r=2
+i=3
+l=1
+sum=3
+if(n<i):
+    print(-1)
+else:
+    while(sum<=n):
+        if(sum<n):
+            sum+=i
+        elif(sum==n):
+            print((3**(1/2))/4*(l*2*r)*(l*2*r))
+            break
+        if(sum>n):
+            print(-1)
+            break
+        i+=1
+        l+=1
